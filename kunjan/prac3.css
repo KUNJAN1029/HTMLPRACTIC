@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-image: linear-gradient(red, blue);
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+}
+.box2{
+    
+    background-image: linear-gradient(red, blue);
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+.box3{
+    
+    background-image: radial-gradient(red,blue);
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+}
+.box4{
+    
+    background-image: conic-gradient(red,blue);
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+}
+.box5{
+    
+    background-image: linear-gradient(red, blue);
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+    box-shadow: inset 1px 1px 20px black,
+    1px 1px 0.8rem red;
+}
+.box6{
+    
+    background-image: linear-gradient(red, blue);
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+    filter:blur(20px);
+}
+.box6:hover{
+    filter: blur(0px);
+}
+.box7{
+    
+    background-image:url("./image/building.jpg");
+    background-size: cover;
+    width: 60vmin;
+    aspect-ratio: 1;
+    border: 2px solid #000000;
+    margin: 10px auto;
+    filter: brightness(200%);
+}
+i{
+    font-size: 200px;
+    filter: drop-shadow(1px 1px 0.85rem red);
+}
+.card{
+    width: 200px;
+    aspect-ratio: 1;
+    border: 2px solid black;
+    margin: 30px auto;
+    list-style-position: inside;
+    list-style-type: none;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: aqua;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: darkorange;
+}
