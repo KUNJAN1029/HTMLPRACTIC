@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+.border{
+    border: 2px solid black;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 500ms 500ms;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    transition: all linear 500ms 500ms;
+}
+.parent:hover{
+    background-image: linear-gradient(to right, red, blue);
+    box-shadow: 1px 1px 0.85rem yellow;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+.child:hover{
+    background-image: linear-gradient(to right, green, blue);
+    color: aqua;
+    box-shadow: 1px 1px 0.85rem red;
+    border-radius: 50%;
+}

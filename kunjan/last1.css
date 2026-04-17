@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #161339;
+}
+.parent{
+    display: flex;
+    width: 1400px;
+    height: 600px;
+    box-shadow: 1px 1px 0.85px black;
+    border-radius: 20px;
+}
+.child1{
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column; */
+    text-align: left;
+    width: 50%;
+    height: 600px;
+    background-color: #161345;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+.child2{
+    width: 50%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(235, 56, 235, 0.4)), url("./image/polorbear.jpg");
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.child3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 70%;
+}
+h1{
+    font-size: 3rem;
+}
+span{
+    color: violet;
+}
+p{
+    margin-right: 100px;
+}
+.child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
