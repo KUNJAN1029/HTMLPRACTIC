@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7E7E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.border{
+    border: 1px solid red;
+}
+.box{
+    background-color: #faf0e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px white;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    color: black;
+}
+.box1 img{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-position: center;
+}
+.box2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.box3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box3 .p1{
+    font-family: Montserrat;
+    letter-spacing: 4px;
+    font-size: 0.8rem;
+    color: darkgray;
+}
+.box3 h1{
+    font-family: Fraunces;
+}
+.box3 .p2{
+    letter-spacing: 1px;
+    font-family: Montserrat;
+    text-align: justify;
+    color: darkgray;
+    font-size: small;
+}
+.box3 h2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: Fraunces;
+    text-align: justify;
+    color: #3c8067;
+}
+.box3 span{
+    margin: 10px;
+    color: darkgray;
+    text-decoration: line-through;
+    font-size: 0.8rem;
+}
+button{
+    background-color: #3c8067;
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+}
