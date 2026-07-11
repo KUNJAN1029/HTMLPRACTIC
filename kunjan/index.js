@@ -71,44 +71,99 @@
 //     `;
 // }
 
-const cart = [
+// const cart = [
+//   {
+//     name: "Wireless Mouse",
+//     price: 499,
+//     quantity: 2,
+//   },
+//   {
+//     name: "Keyboard",
+//     price: 999,
+//     quantity: 1,
+//   },
+//   {
+//     name: "Headphones",
+//     price: 1499,
+//     quantity: 1,
+//   },
+// ];
+
+// let totalItems = 0;
+// let totalPrice = 0;
+// let cartSummary = "";
+// cartSummary = `Shopping Cart
+
+// `;
+
+// for (let product of cart) {
+// let subTotal = product.price * product.quantity;
+//   totalItems += product.quantity;
+//   totalPrice += subTotal;
+//   cartSummary += `${product.name}
+// Price: ${product.price}
+// Quantity: ${product.quantity}
+// Subtotal: ${subTotal}
+
+// `;
+// }
+
+// cartSummary += `Total Items: ${totalItems}
+// Total Price: ${totalPrice}`;
+
+// console.log(cartSummary);
+
+// const products = [
+//   {
+//     name: "Wireless Mouse",
+//     price: 499,
+//     inStock: true,
+//   },
+//   {
+//     name: "Keyboard",
+//     price: 999,
+//     inStock: false,
+//   },
+//   {
+//     name: "Headphones",
+//     price: 1499,
+//     inStock: true,
+//   },
+//   {
+//     name: "Monitor",
+//     price: 8999,
+//     inStock: false,
+//   },
+//   {
+//     name: "Laptop Stand",
+//     price: 1299,
+//     inStock: true,
+//   },
+// ];
+
+// const availableProducts = products.filter((e) => e.inStock === true);
+
+// console.log(availableProducts)
+
+
+const products = [
   {
+    id: 1,
     name: "Wireless Mouse",
     price: 499,
-    quantity: 2,
   },
   {
+    id: 2,
     name: "Keyboard",
     price: 999,
-    quantity: 1,
   },
   {
+    id: 3,
     name: "Headphones",
     price: 1499,
-    quantity: 1,
   },
 ];
 
-let totalItems = 0;
-let totalPrice = 0;
-let cartSummary = "";
-cartSummary = `Shopping Cart
+const productCards = products.map((e) => `${e.name} - ₹${e.price}`)
 
-`;
-
-for (let product of cart) {
-let subTotal = product.price * product.quantity;
-  totalItems += product.quantity;
-  totalPrice += subTotal;
-  cartSummary += `${product.name}
-Price: ${product.price}
-Quantity: ${product.quantity}
-Subtotal: ${subTotal}  
-
-`;
-}
-
-cartSummary += `Total Items: ${totalItems}
-Total Price: ${totalPrice}`;
-
-console.log(cartSummary);
+console.log(productCards);
