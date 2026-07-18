@@ -146,24 +146,130 @@
 // console.log(availableProducts)
 
 
-const products = [
-  {
-    id: 1,
-    name: "Wireless Mouse",
-    price: 499,
-  },
-  {
-    id: 2,
-    name: "Keyboard",
-    price: 999,
-  },
-  {
-    id: 3,
-    name: "Headphones",
-    price: 1499,
-  },
-];
+// const products = [
+//   {
+//     id: 1,
+//     name: "Wireless Mouse",
+//     price: 499,
+//   },
+//   {
+//     id: 2,
+//     name: "Keyboard",
+//     price: 999,
+//   },
+//   {
+//     id: 3,
+//     name: "Headphones",
+//     price: 1499,
+//   },
+// ];
 
-const productCards = products.map((e) => `${e.name} - ₹${e.price}`)
+// const productCards = products.map((e) => `${e.name} - ₹${e.price}`)
 
-console.log(productCards);
+// console.log(productCards);
+
+
+// const products = [
+//   {
+//     id: 1,
+//     name: "Wireless Mouse",
+//     price: 499,
+//     inStock: true,
+//   },
+//   {
+//     id: 2,
+//     name: "Keyboard",
+//     price: 999,
+//     inStock: false,
+//   },
+//   {
+//     id: 3,
+//     name: "Headphones",
+//     price: 1499,
+//     inStock: true,
+//   },
+//   {
+//     id: 4,
+//     name: "Monitor",
+//     price: 8999,
+//     inStock: true,
+//   },
+// ];
+
+// const selectedProductId = 1;
+// let print;
+
+// const selectedProduct = products.find(
+//   product => product.id === selectedProductId 
+// );
+
+// if (selectedProduct != undefined && selectedProduct.inStock === true) {
+//     print = `Product found
+//     Name: ${selectedProduct.name}
+//     Price: ${selectedProduct.price}
+//     In Stock: ${selectedProduct.inStock ? "Yes" : "No"}`;
+//   }
+// else {
+//     print =`Product not found`
+//   }
+
+// console.log(print)
+
+// const cart = [
+//   {
+//     name: "Wireless Mouse",
+//     quantity: 2,
+//     inStock: true,
+//   },
+//   {
+//     name: "Keyboard",
+//     quantity: 1,
+//     inStock: true,
+//   },
+//   {
+//     name: "Headphones",
+//     quantity: 1,
+//     inStock: false,
+//   },
+// ];
+
+// const hasOutOfStockProduct = cart.some(
+//     stock => stock.inStock === false
+// )
+
+// if(hasOutOfStockProduct === true)
+// {
+//     console.log("Checkout Disabled Some products are out of stock.")
+// }
+// else{
+//     console.log("Checkout Allowed All products are available.")
+// }
+
+// const cart = [
+//   {
+//     name: "Wireless Mouse",
+//     price: 499,
+//     quantity: 2,
+//   },
+//   {
+//     name: "Keyboard",
+//     price: 999,
+//     quantity: 1,
+//   },
+//   {
+//     name: "Headphones",
+//     price: 1499,
+//     quantity: 1,
+//   },
+// ];
+
+
+// const grandTotal = cart.reduce(
+//   (total, product) => {
+//     return total + product.price * product.quantity;
+//   },
+//   0
+// );
+
+// console.log(grandTotal)
+
